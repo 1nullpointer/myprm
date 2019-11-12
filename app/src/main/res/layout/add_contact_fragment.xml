@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerAddContactFrgmt"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/addContactBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@drawable/ic_close_black_48dp"
+            app:layout_constraintLeft_toRightOf="@id/addContactRightGuideline"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addContactCenterGuideline"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addContactRightGuideline"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.8" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enterContactName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Who did you meet ?"
+
+            app:layout_constraintTop_toBottomOf="@id/addContactBackButton"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/enterContactNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint=""
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/enterActivityTagHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What did you do?"
+
+            app:layout_constraintTop_toBottomOf="@id/enterContactName"
+
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_general_meeting"
+            app:iconSize="12dp"
+
+            android:id="@+id/activityTagGenMeetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Gen Meetup"
+            android:tag="General_MeetUp"
+
+            app:layout_constraintTop_toBottomOf="@id/enterActivityTagHeader"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintRight_toLeftOf="@id/addContactCenterGuideline"
+            android:layout_marginRight="4dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_smartphone_call"
+            app:iconSize="12dp"
+
+            android:id="@+id/activityTagMsgCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Message/Call"
+            android:tag="Message_Call"
+
+            app:layout_constraintTop_toBottomOf="@id/enterActivityTagHeader"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintLeft_toRightOf="@id/addContactCenterGuideline"
+            android:layout_marginLeft="4dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        app:icon="@drawable/ic_coffee_cup"
+        app:iconSize="12dp"
+
+        android:id="@+id/activityTagCoffeeChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Coffee Chat"
+            android:tag="Coffee_Chat"
+
+        app:layout_constraintTop_toBottomOf="@id/activityTagGenMeetup"
+        android:textAllCaps="false"
+        app:cornerRadius="2dp"
+        android:textColor="@color/default_button_text_color"
+        app:rippleColor="@color/ripple_color"
+        app:strokeColor="@color/default_button_text_color"
+        app:strokeWidth="1dp"
+
+        app:layout_constraintRight_toLeftOf="@id/addContactCenterGuideline"
+        android:layout_marginRight="4dp"
+
+        />
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_fast_food_burger"
+            app:iconSize="12dp"
+
+            android:id="@+id/activityTagLunchDinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Lunch/Dinner"
+            android:tag="Lunch_Dinner"
+
+            app:layout_constraintTop_toBottomOf="@id/activityTagGenMeetup"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintLeft_toRightOf="@id/addContactCenterGuideline"
+            android:layout_marginLeft="4dp"
+            />
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_networking_team"
+            app:iconSize="12dp"
+
+            android:id="@+id/activityTagNetworking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Net working"
+            android:tag="Networking"
+
+
+            app:layout_constraintTop_toBottomOf="@id/activityTagCoffeeChat"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintRight_toLeftOf="@id/addContactCenterGuideline"
+            android:layout_marginRight="4dp"
+
+
+            />
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_party_champagne_glass"
+            app:iconSize="12dp"
+
+            android:id="@+id/activityTagPartySocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Party/ Social"
+            android:tag="Party_Social"
+
+            app:layout_constraintTop_toBottomOf="@id/activityTagCoffeeChat"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            app:layout_constraintLeft_toRightOf="@id/addContactCenterGuideline"
+            android:layout_marginLeft="4dp"
+
+
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enterNote"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Notes"
+
+            app:layout_constraintTop_toBottomOf="@id/activityTagNetworking"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/enterNoteEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/followUpHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="When do you want to follow up ?"
+            app:layout_constraintTop_toBottomOf="@id/enterNote"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_add_white_24dp"
+            app:iconSize="12dp"
+            app:iconGravity="start"
+
+            android:id="@+id/selectReminderSpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="Every 2 weeks"
+
+            app:layout_constraintTop_toBottomOf="@id/followUpHeader"
+            android:textAllCaps="false"
+            app:cornerRadius="2dp"
+            android:textColor="@color/default_button_text_color"
+            app:rippleColor="@color/ripple_color"
+            app:strokeColor="@color/default_button_text_color"
+            app:strokeWidth="1dp"
+
+            android:layout_marginLeft="16dp"
+
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button"
+
+            android:id="@+id/addToMyCrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Add To Prm"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/selectReminderSpan"
+
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

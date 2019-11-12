@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+
+
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.myprm.com.app.exp.BizEntryActivity"
+
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+
+    <RelativeLayout
+
+        android:id="@+id/bizEntryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/bizEntryitle"
+            android:layout_width="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="64dp"
+
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_light"
+            android:text="Business Details"/>
+
+        <Button
+            android:id="@+id/bizEntryNextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="64dp"
+            android:layout_marginRight="16dp"
+            android:padding="16dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/steel_blue"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/bizIdEntry"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Business Id"
+
+
+        android:textSize="16sp"
+        android:paddingTop="32dp"
+
+        app:layout_constraintTop_toBottomOf="@id/bizEntryLayout"
+
+        />
+
+    <EditText
+        android:id="@+id/bizIdEntryValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/bizIdEntry"
+        />
+
+
+    <TextView
+        android:id="@+id/bizIdPassword"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Password"
+
+
+        android:textSize="16sp"
+        android:paddingTop="32dp"
+
+        app:layout_constraintTop_toBottomOf="@id/bizIdEntryValue"
+
+        />
+
+    <EditText
+        android:id="@+id/bizIdPasswordValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/bizIdPassword"
+
+        android:inputType="textPassword"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

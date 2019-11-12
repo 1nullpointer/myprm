@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!--  UI Button Names  start -->
+    <string name="walkIn_button_text">ವಾಕ್ ಇನ್</string>
+
+    <string name="history_button_text">ಹಿಸ್ಟರಿ</string>
+    <string name="settings_button_text">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+
+
+    <string name="done_button_text">ಡನ್</string>
+    <string name="absent_button_text">ಆಬ್ಸೆಂಟ್</string>
+    <string name="remove_button_text">ರಿಮೂವ್</string>
+    <string name="qr_code_button_text">ಕ್ಯೂ ಆರ್ ಕೋಡ್</string>
+
+    <string name="back_to_q_button_text">ಪ್ರೆಸೆಂಟ್</string>
+    <string name="clinic_wait_status_text">ಕ್ಲಿನಿಕ್ ಸ್ಟೇಟಸ್ ಅಪ್ಡೇಟ್</string>
+
+    <string name="sms_button_text">ಮೆಸೇಜ್</string>
+    <string name="phone_button_text">ಫೋನ್</string>
+    <string name="whatsapp_button_text">ವಾಟ್ಸ ಆಪ್</string>
+
+    <string name="patron_info_button_text">ಪೋಷಕರ ವಿವರ</string>
+    <string name="check_in_button_text">ಚೆಕ್ ಇನ್</string>
+    <string name="name_text">*ಹೆಸರು</string>
+    <string name="mobile_num_text">*ಮೊಬೈಲ್</string>
+
+    <string name="settings_kannada_button_text">Kannada</string>
+    <string name="settings_stop_online_checkin_button_text">ಆನ್ಲೈನ್ ಚೆಕ್ಕಿನ್ ನಿಲ್ಲಿಸಿ</string>
+    <string name="settings_enable_sms_button_text">ಎಸ್ ಎಂ ಎಸ್</string>
+    <string name="settings_sms_from_local_device_button_text">ಫೋನಿಂದ SMS ಕಳುಹಿಸಿ</string>
+    <string name="settings_reminder_sms_button_text">Reminder SMS</string>
+
+    <!--  UI Button Names  end -->
+
+    <string name="permission_not_granted">PERMISSION NOT GRANTED!</string>
+
+    <string name="settings_enable_sms_alert">ಫ್ರೀ SMS ಇದೆಯೇ</string>
+    <string name="settings_enable_sms_YES">ಹೌದು</string>
+    <string name="settings_enable_sms_No">ಇಲ್ಲ</string>
+
+    <string name="client_handle_token_text">ಟೋಕನ್   : </string>
+    <string name="client_handle_name_text">ಹೆಸರು      : </string>
+    <string name="client_handle_mobile_text">ಮೊಬೈಲ್  : </string>
+    <string name="client_handle_weight_text">ತೂಕ  :  </string>
+    <string name="client_handle_vaccination_text">ವ್ಯಾಕ್ಸಿನೇಷನ್  :  </string>
+
+    <string name="delete_token_alert_text">ಟೋಕನ್ ಡಿಲೀಟ್ ಮಾಡಬಹುದಾ ?</string>
+    <string name="edit_name_alert_text">ಹೆಸರು ಬದಲಿಸಿದ್ದು ಸರಿಯಾಗಿದೇಯೇ ?</string>
+    <string name="edit_mobile_num_alert_text">ಮೊಬೈಲ್ ನಂಬರ್ ಬದಲಿಸಿದ್ದು ಸರಿಯಾಗಿದೇಯೇ ?</string>
+    <string name="edit_weight_alert_text">ತೂಕ ಬದಲಿಸಿದ್ದು ಸರಿಯಾಗಿದೇಯೇ ?</string>
+    <string name="settings_call_dash_ivr_text">Enable Call</string>
+    <string name="settings_token_announcement">Token Announce</string>
+
+    <string name="emergency_doctor_unavailable_duration_text">Doctor is Unavailable For </string>
+    <string name="token_issue_stopped_alert_text">Doctor On Leave Note Will be Cleared. Are you Sure? </string>
+
+</resources>

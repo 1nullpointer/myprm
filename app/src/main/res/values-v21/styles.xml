@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="colorPrimary">@android:color/transparent</item>
+
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+
+
+    </style>
+
+    <style name="AppThemeNoActionBarWithBackButton" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+    </style>
+
+
+
+    <style name="AppThemeTransparent" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="AppTheme.ActionBar.AppThemeTransparent" parent="AppThemeTransparent">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp2</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.AppThemeTransparent2" parent="AppThemeTransparent">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp_darker</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/dividerHorizontal</item>
+
+    </style>
+
+    <style name="AppThemeTransparent3" parent="AppThemeTransparent">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp_darker</item>
+    </style>
+
+    <!-- Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="DividerFullLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+
+    <style name="AppThemeMaterialNoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1E7FDF</item>
+        <item name="colorPrimaryDark">#1d4e62</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+</resources>

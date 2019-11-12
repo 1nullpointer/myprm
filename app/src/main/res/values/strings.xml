@@ -1,0 +1,80 @@
+<resources>
+<!--    <string name="app_name">ದೂರ್ಬಿನ್ </string>
+
+    &lt;!&ndash;<string-array name="region_array">
+        <item>Byndoor</item>
+        <item>Kundapura</item>
+
+    </string-array>&ndash;&gt;
+    <string name="title_activity_google_maps">Map</string>
+
+    <string name="termsAndConditionsLink">By Pressing Continue , You Accept <a href="https://dhoorbin.github.io/legal/termsandconditions.html">Terms And Conditions</a></string>
+
+    <string name="facebook_app_id">1812149032414782</string>-->
+
+
+    <!-- <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/8135179316</string>-->
+
+
+    <!--  UI Button Names  start -->
+    <string name="walkIn_button_text">Walk Ins</string>
+
+    <string name="history_button_text">History</string>
+    <string name="settings_button_text">Settings</string>
+
+
+    <string name="done_button_text">Done</string>
+    <string name="absent_button_text">Absent</string>
+    <string name="remove_button_text">X Remove This Token</string>
+    <string name="qr_code_button_text">QR Code</string>
+
+    <string name="sms_button_text">SMS</string>
+    <string name="phone_button_text">Call</string>
+    <string name="whatsapp_button_text">WhatsApp</string>
+
+    <string name="back_to_q_button_text">Present</string>
+
+    <string name="clinic_wait_status_text">Clinic Wait Status</string>
+
+    <string name="patron_info_button_text">Patient Info</string>
+    <string name="check_in_button_text">Check In</string>
+    <string name="name_text">*Name</string>
+    <string name="mobile_num_text">*Mobile</string>
+
+
+    <string name="settings_kannada_button_text">ಕನ್ನಡ</string>
+    <string name="settings_stop_online_checkin_button_text">Stop Online CheckIn</string>
+    <string name="settings_enable_sms_button_text">Enable SMS</string>
+    <string name="settings_reminder_sms_button_text">Reminder SMS</string>
+    <string name="settings_sms_from_local_device_button_text">SMS From Phone</string>
+    <string name="settings_call_dash_ivr_text">Enable Call</string>
+    <string name="settings_token_announcement">Token Announce</string>
+
+    <!--  UI Button Names  end -->
+
+    <string name="permission_not_granted">PERMISSION NOT GRANTED!</string>
+
+
+    <string name="settings_enable_sms_alert">Do you Have Free SMS ? </string>
+
+    <string name="settings_enable_sms_YES">Yes</string>
+    <string name="settings_enable_sms_No">No</string>
+
+    <string name="client_handle_token_text">Token   :   </string>
+    <string name="client_handle_name_text">Name    :   </string>
+    <string name="client_handle_mobile_text">Mobile  :  </string>
+    <string name="client_handle_weight_text">Weight  :  </string>
+    <string name="client_handle_vaccination_text">Vaccination  :  </string>
+
+    <string name="delete_token_alert_text">Are you sure you want to delete Token ?</string>
+    <string name="edit_name_alert_text">Are you sure you want to change the name ?</string>
+    <string name="edit_mobile_num_alert_text">Are you sure you want to change the Mobile Num ?</string>
+    <string name="edit_weight_alert_text">Are you sure you want to change the Weight ?</string>
+
+    <string name="emergency_doctor_unavailable_duration_text">Doctor is Unavailable For </string>
+
+    <string name="token_issue_stopped_alert_text">Doctor On Leave Note Will be Cleared. Are you Sure? </string>
+
+
+</resources>

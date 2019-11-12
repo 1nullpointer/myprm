@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerAddContactFrgmt"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+
+            android:textSize="24sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsIntegrationsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrations"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/settingsHeaderText"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsCalendarToggleTextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calendar"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/settingsIntegrationsHeader"
+
+            />
+        
+        <LinearLayout
+            android:id="@+id/settingsCalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/settingsCalendarToggleTextHeader"
+            >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsCalendarToggleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receive a reminder after your meetings with other people to add them to MyPRM"
+
+            android:layout_weight="4"
+            />
+
+        <ToggleButton
+            android:id="@+id/settingsCalendarToggleSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            />
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsOverdueNotTextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overdue Notifications"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/settingsCalLayout"
+            />
+
+        <LinearLayout
+            android:id="@+id/settingsOverdueLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/settingsOverdueNotTextHeader"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/settingsOverdueNoteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receive a notification when a contact becomes overdue"
+
+                android:layout_weight="4"
+                />
+
+            <ToggleButton
+                android:id="@+id/settingsOverdueNoteTextToggleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:checked="true"
+
+                />
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settingsWeeklyNoteTextHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Notifications"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/settingsOverdueLayout"
+            />
+
+        <LinearLayout
+            android:id="@+id/settingsWeeklyNoteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/settingsWeeklyNoteTextHeader"
+            >
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/settingWeeklyNoteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receive a reminder every week to update your relationships"
+
+                android:layout_weight="4"
+                />
+
+            <ToggleButton
+                android:id="@+id/settingsWeeklyNoteToggleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

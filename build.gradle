@@ -1,0 +1,51 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.2.51'
+
+    apply from: 'versions.gradle'
+
+    repositories {
+
+        //Jake Wharton : Artifact integrity verification aside, not only should jcenter() always be last, but you need to put mavenCentral() before them.
+        // JCenter and Bintray keep proving they're not a trustworthy artifact host.
+        //https://blog.autsoft.hu/a-confusing-dependency/
+
+        google()
+        mavenCentral()
+
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+        maven { url "https://jitpack.io" }
+
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:4.1.0'
+
+        classpath 'io.fabric.tools:gradle:1.25.4'
+
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+        }
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

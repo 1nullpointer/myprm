@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+
+
+        >
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUpDontRemindMe"
+            android:text="Don't remind me"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+
+            android:textColor="@color/default_button_text_color"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUp2Week"
+            android:text="Every two weeks"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+
+            android:textColor="@color/default_button_text_color"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUpMonthly"
+            android:text="Every month"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+
+            android:textColor="@color/default_button_text_color"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUpThreeMonths"
+            android:text="Every 3 months"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+
+            android:textColor="@color/default_button_text_color"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUpSixMonths"
+            android:text="Every 6 months"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+            android:textColor="@color/default_button_text_color"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/followUpYearly"
+            android:text="Every year"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+            android:textColor="@color/default_button_text_color"
+
+            />
+
+    </LinearLayout>
+
+
+
+</layout>

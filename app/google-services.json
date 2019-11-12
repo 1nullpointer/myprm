@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402107032204",
+    "firebase_url": "https://myprm-b12dd.firebaseio.com",
+    "project_id": "myprm-b12dd",
+    "storage_bucket": "myprm-b12dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402107032204:android:068870f38684b95f4d11a9",
+        "android_client_info": {
+          "package_name": "org.myprm.com.app.exp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402107032204-ougcjndmf9tpoh8hc13uqeut8edeqcpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.myprm.com.app.exp",
+            "certificate_hash": "e08e2ba236812fec310c8cdb6a38363463fc9832"
+          }
+        },
+        {
+          "client_id": "402107032204-siv5o94brqp28662ibdk0faf6hoctssh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8F9uYR3Mq2VNIsGNyJYMkoTB6YYcTRMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402107032204-siv5o94brqp28662ibdk0faf6hoctssh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

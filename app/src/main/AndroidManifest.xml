@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.myprm.com.app.exp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:name="org.myprm.com.app.exp.MyPrmApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Prm"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:fullBackupContent="false"
+        >
+
+
+
+        <activity
+            android:name="org.myprm.com.app.exp.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.myprm.com.app.exp.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppThemeMaterialNoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <activity
+            android:name="org.myprm.com.app.exp.IntroActivity"
+            android:theme="@style/AppThemeMaterialNoActionBar" />
+
+        <activity android:name="org.myprm.com.app.exp.BizEntryActivity"
+            android:theme="@style/AppThemeMaterialNoActionBar"
+
+            />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MergeRootFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/mainActivityCoordinatorLayout"
+    tools:context="org.myprm.com.app.exp.MainActivity">
+
+   <!-- <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+
+        android:background="@color/transparent"
+        >
+
+
+
+
+       &lt;!&ndash; <com.arlib.floatingsearchview.FloatingSearchView
+            android:id="@+id/floating_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:floatingSearch_searchBarMarginLeft="16dp"
+            app:floatingSearch_searchBarMarginTop="8dp"
+            app:floatingSearch_searchBarMarginRight="16dp"
+
+            app:floatingSearch_searchHint="Try Byndoor "
+            app:floatingSearch_suggestionsListAnimDuration="250"
+            app:floatingSearch_showSearchKey="false"
+            app:floatingSearch_leftActionMode="showSearch"
+            app:floatingSearch_menu="@menu/search_menu"
+            app:floatingSearch_close_search_on_keyboard_dismiss="true">&ndash;&gt;
+
+          &lt;!&ndash;  <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"/>&ndash;&gt;
+
+
+&lt;!&ndash;
+        </com.arlib.floatingsearchview.FloatingSearchView>
+&ndash;&gt;
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="My PRM"
+                />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:id="@+id/addContactFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="32dp"
+        app:srcCompat="@drawable/ic_add_white_24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@color/white"
+        android:elevation="16dp"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/my_navigation_items" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

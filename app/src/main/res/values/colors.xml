@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E7FDF</color>
+    <color name="colorPrimaryDark">#1d4e62</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="darkorange">#FF8C00</color>
+
+
+    <color name="black_alpha_40">#66000000</color>
+
+    <color name="default_button_text_color">#808080</color>
+    <color name="ripple_color">#33AAAAAA</color>
+
+    <color name="grey_white_smoke">#F5F5F5</color>
+    <color name="grey_gainsboro">#DCDCDC</color>
+    <color name="grey_lightgray">#D3D3D3</color>
+    <color name="grey_silver">#C0C0C0</color>
+    <color name="grey_dark_grey">#A9A9A9</color>
+    <color name="grey_dimgrey">#696969</color>
+    <color name="grey_spanishgray">#999999</color>
+
+
+    <color name="transparent">#00000000</color>
+
+    <color name="yellowAdvt">#FFFF00</color>
+
+    <color name="limegreen">#32CD32</color>
+    <color name="light_sky_blue">#82CAFA</color>
+    <color name="crystal_blue">#87AFC7</color>
+    <color name="sky_blue">#6698FF</color>
+    <color name="slate_blue">#737CA1</color>
+    <color name="steel_blue">#4863A0</color>
+    <color name="blue_ribbon">#306EFF</color>
+    <color name="ocean_blue">#2B65EC</color>
+
+
+    <color name="windows_blue">#357EC7</color>
+
+    <color name="oceans_blue">#2B65EC</color>
+
+    <color name="orange_yellow">#FFD400</color>
+
+    <color name="purple">#6C00D9</color>
+
+    <color name="screen1">#F44336</color>
+
+    <color name="screen2">#64DD17</color>
+    <color name="spring_green">#4AA02C</color>
+
+    <color name="screen3">#9C27B0</color>
+
+
+    <color name="splash_gradient_start">#000046</color>
+    <color name="splash_gradient_end">#1cb5e0</color>
+
+    <color name="ivory">#FFFFF0</color>
+
+    <!--
+    <color name="white">#fafafa</color>
+-->
+
+    <color name="orangered">#FF4500</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow_1">#FCF3CF</color>
+    <color name="yellow_2">#FCF3CF</color>
+    <color name="yellow_3">#F9E79F</color>
+    <color name="yellow_4">#F7DC6F</color>
+    <color name="yellow_5">#F4D03F</color>
+    <color name="yellow_6">#F1C40F</color>
+    <color name="yellow_7">#D4AC0D</color>
+    <color name="yellow_8">#B7950B</color>
+    <color name="yellow_9">#9A7D0A</color>
+
+    <color name="red_1">#FF7F7F</color>
+    <color name="red_2">#ff6666</color>
+    <color name="red_3">#ffb2b2</color>
+    <color name="red_4">#ffcccc</color>
+    <color name="red_5">#ff4c4c</color>
+
+    <color name="orange_1">#ffcc00</color>
+    <color name="orange_2">#ff9966</color>
+
+    <!-- https://htmlcolorcodes.com/ for color shades -->
+    <color name="green_1">#99cc33</color>
+    <color name="green_2">#339900</color>
+    <color name="green_3">#A9DFBF</color>
+    <color name="green_4">#7DCEA0</color>
+    <color name="green_5">#52BE80</color>
+    <color name="green_6">#27AE60</color>
+    <color name="green_7">#229954</color>
+    <color name="green_8">#1E8449</color>
+    <color name="green_9">#196F3D</color>
+    <color name="green_10">#145A32</color>
+    <color name="green_11_from_website">#4CAF50</color>
+    <color name="green_12">#E8F8F5</color>
+    <color name="green_13">#D1F2EB</color>
+    <color name="green_14">#E9F7EF</color>
+    <color name="green_15">#D4EFDF</color>
+    <color name="green_16">#EAFAF1</color>
+    <color name="green_17">#D5F5E3</color>
+
+    <color name="blue_1">#EBF5FB</color>
+    <color name="blue_2">#D6EAF8</color>
+    <color name="blue_3">#AED6F1</color>
+    <color name="blue_4">#85C1E9</color>
+    <color name="blue_5">#5DADE2</color>
+    <color name="blue_6">#3498DB</color>
+    <color name="blue_7">#2E86C1</color>
+    <color name="blue_8">#2874A6</color>
+    <color name="blue_9">#21618C</color>
+    <color name="blue_10">#1B4F72</color>
+
+
+
+
+    <color name="purple_lavender">#E6E6FA</color>
+    <color name="purple_thistle">#D8BFD8</color>
+    <color name="purple_plum">#DDA0DD</color>
+    <color name="purple_violet">#EE82EE</color>
+    <color name="purple_orchid">#DA70D6</color>
+
+    <color name="purple_dark_violet">#9400D3</color>
+    <color name="purple_dark_orchid">#9932CC</color>
+    <color name="purple_purple">#800080</color>
+    <color name="purple_indigo">#4B0082</color>
+    <color name="purple_dark_magenta">#8B008B</color>
+
+
+</resources>

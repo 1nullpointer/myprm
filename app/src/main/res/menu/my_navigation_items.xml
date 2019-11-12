@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home_bottom_nav"
+        android:title="Home"
+        android:icon="@drawable/ic_present_icon"
+        />
+    <item android:id="@+id/contacts_bottom_nav"
+        android:title="Contacts"
+        android:icon="@drawable/ic_perm_contact_calendar_black_24dp" />
+    <item android:id="@+id/settings_bottom_nav"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_icon" />
+</menu>
