@@ -1,5 +1,5 @@
 # myprm
-A Skelatal Personal Relationship Manager Android App
+A Skeletal Personal Relationship Manager Android App
 
 Built on :  
       Java
